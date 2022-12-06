@@ -1,0 +1,122 @@
+@font-face {
+    font-family: "Sports World";
+    font-weight: 400;
+    src: url("font/Sports World-Regular.otf") format('opentype');
+    src: url('font/Sports World-Regular.ttf') format('truetype');
+}
+
+body {
+    margin: 0px !important;
+    background-image: url("https://images.pexels.com/photos/6503520/pexels-photo-6503520.jpeg?cs=srgb&dl=pexels-cottonbro-studio-6503520.jpg&fm=jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#wrap {
+    width: 100%;
+    height: 138px;
+    margin: 0;
+    z-index: 99;
+    background-color: #444444;
+  }
+
+  .navbar {
+    height: 50px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .navbar li {
+    height: auto;
+    width: 135.8px;
+    float: left;
+    text-align: center;
+    list-style: none;
+    font: normal bold 13px/1em Arial, Verdana, Helvetica;
+    padding: 0;
+    margin: 0;
+    background-color: #444444;
+  }
+  
+
+  .navbar a {
+    padding: 18px 0;
+    border-left: 1px solid #ccc9c9;
+    text-decoration: none;
+    color: white;
+    display: block;
+  }
+
+  .navbar li:hover,
+a:hover {
+  background-color: #525157;
+}
+
+.navbar li ul {
+    display: none;
+    height: auto;
+    margin: 0;
+    padding: 0;
+  }
+
+  .navbar li:hover ul {
+    display: block;
+  }
+
+  .navbar li ul li a {
+    border-left: 1px solid #444444;
+    border-right: 1px solid #444444;
+    border-top: 1px solid #c9d4d8;
+    border-bottom: 1px solid #444444;
+  }
+.nr 
+{
+    float: right !important;
+}
+
+  .lt {
+    height: 50px;
+    width: 50px;
+    padding: 25px;
+
+  }
+
+  .lth {
+    height: 100px;
+    width: 100px;
+  }
+
+  .TiP {
+    color: white;
+    font-size: 50px;
+    padding: 50px;
+    font-family:"Sports World";
+    text-align: center;
+  }
+
+  .gif {
+    display: flex;
+    justify-content: center;
+
+}
+
+button
+{
+  background-color: #444444;
+  color: white;
+  border-color: #444444;
+  border-radius: 15%;
+  padding: 10px;
+  margin: 50px;
+}
+
+button:hover
+{
+  background-color: #525157;
+}
+
+footer {
+  padding: 40px 20px;
+  background: #444444;
+  color: white;
+}
