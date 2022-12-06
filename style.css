@@ -5,12 +5,16 @@
     src: url('font/Sports World-Regular.ttf') format('truetype');
 }
 
+
 body {
     margin: 0px !important;
     background-image: url("https://images.pexels.com/photos/6503520/pexels-photo-6503520.jpeg?cs=srgb&dl=pexels-cottonbro-studio-6503520.jpg&fm=jpg");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-}
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat; background-size: cover;
+
+    }
+    
 
 #wrap {
     width: 100%;
@@ -21,6 +25,7 @@ body {
   }
 
   .navbar {
+    width: ;
     height: 50px;
     padding: 0;
     margin: 0;
@@ -94,6 +99,12 @@ a:hover {
     text-align: center;
   }
 
+  #txt {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+
+  }
   .gif {
     display: flex;
     justify-content: center;
@@ -119,4 +130,37 @@ footer {
   padding: 40px 20px;
   background: #444444;
   color: white;
+  
+
+}
+
+@media only screen and (max-width: 601px) {
+  #txt
+  {
+   font-size: 10px!important;
+   padding-left: 15px;
+   padding-right: 15px;
+  }
+
+  .TiP 
+  {
+    font-size: 20px;
+    padding-top: 10px;
+  }
+
+  .gif img {
+    height: 150px!important;
+  }
+
+  div img {
+    height: 150px !important;
+    width: 200px;
+  }
+  .nr {
+    display: none;
+  }
+  
+  .navbar li {
+    height: 50px;
+  };
 }
